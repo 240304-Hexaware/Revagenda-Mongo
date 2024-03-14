@@ -5,9 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 @SpringBootApplication(scanBasePackages = {
-		"com.revature.demomongospring.controllers",
-		"com.revature.demomongospring.services",
-		"com.revature.demomongospring.repositories"},
+		"com.revature.revagenda.controllers",
+		"com.revature.revagenda.services",
+		"com.revature.revagenda.repositories"},
 		exclude = {DataSourceAutoConfiguration.class})
 public class RevagendaApplication {
 
